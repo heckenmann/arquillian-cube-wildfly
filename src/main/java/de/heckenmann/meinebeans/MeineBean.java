@@ -1,4 +1,4 @@
-package meinetests;
+package de.heckenmann.meinebeans;
 
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;

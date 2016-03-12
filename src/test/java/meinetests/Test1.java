@@ -10,6 +10,8 @@ import org.jboss.shrinkwrap.api.spec.JavaArchive;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import de.heckenmann.meinebeans.MeineBean;
+
 
 public class Test1 extends Arquillian {
 
