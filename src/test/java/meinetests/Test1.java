@@ -1,6 +1,6 @@
 package meinetests;
 
-import javax.inject.Inject;
+import javax.ejb.EJB;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.testng.Arquillian;
@@ -20,11 +20,32 @@ public class Test1 extends Arquillian {
 		return ShrinkWrap.create(JavaArchive.class, "test.jar").addClasses(Test1.class, MeineBean.class).addAsManifestResource(EmptyAsset.INSTANCE, "beans.xml");
 	}
 	
-	@Inject
+	@EJB
 	private MeineBean meineBean;
 	
 	@Test
-	public void testHello() {
+	public void testNull() {
 		Assert.assertNotNull(meineBean);
+	}
+	
+	@Test
+	public void testHello() {
+		Assert.assertEquals(meineBean.sagHallo("Tom"), "Hallo Tom");
+	}
+	
+	@Test
+	public void testHello2() {
+		Assert.assertNotEquals(meineBean.sagHallo("Tom "), "123");
+	}
+
+	/*
+	 * GETTER & SETTER
+	 */
+	public MeineBean getMeineBean() {
+		return meineBean;
+	}
+
+	public void setMeineBean(MeineBean meineBean) {
+		this.meineBean = meineBean;
 	}
 }
