@@ -7,8 +7,8 @@ import javax.ejb.Stateless;
 @LocalBean
 public class MeineBean {
 
-	public String sagHallo(final String name) {
-		return "Hallo " + name;
-	}
+    public String sagHallo(final String name) {
+        return "Hallo " + name;
+    }
 
 }
