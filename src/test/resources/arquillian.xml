@@ -5,6 +5,7 @@
   http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
 
     <extension qualifier="docker">
+        <property name="definitionFormat">CUBE</property>
         <property name="serverVersion">1.22</property>
         <property name="serverUri">http://127.0.0.1:2375</property>
         <property name="dockerContainers">
