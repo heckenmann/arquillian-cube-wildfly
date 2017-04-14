@@ -20,10 +20,10 @@
     </properties>
     
     <repositories>
-          <repository>
-             <id>jboss</id>
-             <url>http://repository.jboss.org/nexus/content/groups/public</url>
-          </repository>
+        <repository>
+           <id>jboss-releases</id>
+           <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+        </repository>
     </repositories>
 
     <dependencyManagement>
