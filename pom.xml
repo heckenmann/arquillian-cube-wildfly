@@ -22,7 +22,6 @@
     <repositories>
           <repository>
              <id>jboss</id>
-             <id>jboss-groups</id>
              <url>http://repository.jboss.org/nexus/content/groups/public</url>
           </repository>
     </repositories>
