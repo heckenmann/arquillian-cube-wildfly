@@ -22,11 +22,11 @@
     <repositories>
         <repository>
             <id>jboss-groups</id>
-            <url>https://repository.jboss.org/nexus/content/groups/public</url>
+            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
         </repository>
         <repository>
             <id>jboss-repositories</id>
-            <url>http://repository.jboss.org/nexus/content/repositories/public/</url>
+            <url>http://repository.jboss.org/nexus/content/repositories/public-jboss</url>
         </repository>
     </repositories>
 
