@@ -18,6 +18,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <wildfly.version>8.2.1.Final</wildfly.version>
     </properties>
+    
+    <repositories>
+          <repository>
+             <id>jboss</id>
+             <id>jboss-groups</id>
+             <url>http://repository.jboss.org/nexus/content/groups/public</url>
+          </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
