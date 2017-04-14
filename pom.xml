@@ -19,17 +19,6 @@
         <wildfly.version>8.2.1.Final</wildfly.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>jboss-groups</id>
-            <url>http://repository.jboss.org/nexus/content/groups/public-jboss</url>
-        </repository>
-        <repository>
-            <id>jboss-repositories</id>
-            <url>http://repository.jboss.org/nexus/content/repositories/public-jboss</url>
-        </repository>
-    </repositories>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
