@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/heckenmann/arquillian-cube-wildfly.svg?branch=master)](https://travis-ci.org/heckenmann/arquillian-cube-wildfly)
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=de.heckenmann:arquillianCubeTest)](https://sonarqube.com/dashboard/index/de.heckenmann:arquillianCubeTest)
+[![Technical debt ratio](https://sonarqube.com/api/badges/measure?key=de.heckenmann:arquillianCubeTest&metric=sqale_debt_ratio)](https://sonarqube.com/dashboard/index/de.heckenmann:arquillianCubeTest)
 
 # TestNG mithilfe von Arquillian auf Wildfly im Docker-Container
 Arquillian hat eine Erweiterung erhalten, mit der es möglich ist, aus einem (Maven-) Projekt heraus Docker-Container zu bauen und zu steuern: Arquillian Cube. So können die Tests abgeschottet in eigenen Container laufen. Nach den Tests werden die Container auf Wunsch gelöscht und beim nächsten Durchlauf wieder automatisch erstellt.
