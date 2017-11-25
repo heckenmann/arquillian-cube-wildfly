@@ -1,4 +1,4 @@
-FROM jboss/wildfly:10.0.0.Final
+FROM jboss/wildfly:11.0.0.Final
 MAINTAINER heckenmann.de
 
 RUN /opt/jboss/wildfly/bin/add-user.sh testuser testpw --silent
