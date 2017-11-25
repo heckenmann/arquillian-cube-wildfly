@@ -38,7 +38,6 @@
             <artifactId>javaee-api</artifactId>
             <version>7.0</version>
             <scope>provided</scope>
-            <type>pom</type>
         </dependency>
         <dependency>
             <groupId>org.wildfly.arquillian</groupId>
