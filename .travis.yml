@@ -4,6 +4,7 @@ install: true
 
 jdk:
   - oraclejdk8
+  - oraclejdk9
 
 services:
   - docker
@@ -16,6 +17,8 @@ addons:
 
 script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -DskipTests=true
+  - mvn test
+
 cache:
   directories:
     - '$HOME/.m2/repository'
